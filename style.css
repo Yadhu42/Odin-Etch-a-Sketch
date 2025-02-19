@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    margin: 40px 30px;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 650px;
+    height: 650px;
+    gap: 5px;
+}
+
+.sq{
+    background-color: #C8A2C8;
+    transition: background-color ease 0.5s;
+}
+
+.sq:hover{
+    background-color: #8f4b8f;
+}
+
