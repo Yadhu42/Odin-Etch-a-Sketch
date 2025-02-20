@@ -1,9 +1,27 @@
-body{
+.gdBtn{
     display: flex;
-    margin: 40px 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.gdSize{
+    background-color: steelblue;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 24px ;
+    font-weight: 700;
+}
+
+.main{
+    display: flex;
+    margin: 10px 30px;
     padding: 0;
     justify-content: center;
     align-items: center;
+    gap: 50px;
 }
 
 .container{
@@ -12,6 +30,7 @@ body{
     width: 650px;
     height: 650px;
     gap: 5px;
+
 }
 
 
