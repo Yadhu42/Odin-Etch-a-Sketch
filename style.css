@@ -1,3 +1,8 @@
+body{
+    height: 100vh;
+    padding: 15px;
+}
+
 .gdBtn{
     display: flex;
     justify-content: center;
@@ -25,12 +30,21 @@
 }
 
 .container{
+    border: solid 1px black;
     display: flex;
     flex-wrap: wrap;
-    width: 650px;
-    height: 650px;
-    gap: 5px;
+    width: 600px;
+    height: 600px;
+}
 
+.sq{
+    padding: 0;
+    flex-shrink: 0;
+    cursor: pointer;
+}
+
+.sq p{
+    visibility: hidden;
 }
 
 
