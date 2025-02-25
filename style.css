@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
 body{
     height: 100vh;
     padding: 15px;
@@ -20,6 +26,14 @@ body{
     font-weight: 700;
 }
 
+#mode{
+    color: steelblue;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px ;
+    font-weight: 400;
+    text-align: center;
+}
+
 .main{
     display: flex;
     margin: 10px 30px;
@@ -30,21 +44,16 @@ body{
 }
 
 .container{
-    border: solid 1px black;
     display: flex;
     flex-wrap: wrap;
-    width: 600px;
-    height: 600px;
 }
 
 .sq{
-    padding: 0;
-    flex-shrink: 0;
     cursor: pointer;
 }
 
 .sq p{
-    visibility: hidden;
+    visibility: visible;
 }
 
 
