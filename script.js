@@ -2,7 +2,7 @@ const container = document.querySelector(`.container`);
 const main = document.querySelector(`.main`);
 const size = document.querySelector(`#size`);
 const reset = document.querySelector(`#clear`);
-const mode = document.querySelector(`#dmode`);
+const mode = document.querySelector(`.dmode`);
 
 document.addEventListener(`DOMContentLoaded`,()=>{
 let del = squares(13);
@@ -64,11 +64,11 @@ function remover(mode){
 
         let count =  Number(square.getAttribute(`counter`));
         if(count<10){
-            square.style.backgroundColor=`rgb(223, 167, 26, ${count/10})`;
+            square.style.backgroundColor=`rgb(70, 130, 180, ${count/10})`;
             square.setAttribute(`counter`,`${count+1}`);
         }
         else{
-            square.style.backgroundColor=`rgb(223, 167, 26,1)`;
+            square.style.backgroundColor=`rgb(70, 130, 180,1)`;
             square.setAttribute(`counter`,`10`);
             return;
         }
